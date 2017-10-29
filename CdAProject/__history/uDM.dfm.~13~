@@ -1,0 +1,82 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Users\leyf\Desktop\SQLiteStudio\DB_posto.db'
+      'DriverID=SQLite')
+    Connected = True
+    Left = 304
+    Top = 32
+  end
+  object FDQuery1: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      
+        'select data as Data,funcionario as Funcionario,tank as Tank,comb' +
+        'ustivel as Combustivel,val_din as '#39'Dinheiro'#39',val_litro as '#39'Litro' +
+        #39' from tb_posto')
+    Left = 384
+    Top = 32
+    object FDQuery1Data: TStringField
+      DisplayWidth = 10
+      FieldName = 'Data'
+      Required = True
+      Size = 32767
+    end
+    object FDQuery1Funcionario: TStringField
+      DisplayWidth = 10
+      FieldName = 'Funcionario'
+      Required = True
+      Size = 32767
+    end
+    object FDQuery1Tank: TStringField
+      DisplayWidth = 10
+      FieldName = 'Tank'
+      Required = True
+      FixedChar = True
+      Size = 32767
+    end
+    object FDQuery1Combustivel: TStringField
+      DisplayWidth = 10
+      FieldName = 'Combustivel'
+      Required = True
+      Size = 32767
+    end
+    object FDQuery1Dinheiro: TLargeintField
+      DisplayWidth = 10
+      FieldName = 'Dinheiro'
+    end
+    object FDQuery1Litro: TLargeintField
+      DisplayWidth = 10
+      FieldName = 'Litro'
+      Required = True
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 464
+    Top = 32
+  end
+  object selectfunc: TFDQuery
+    Active = True
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select nome from tb_fun where setor like '#39'Frentista'#39)
+    Left = 16
+    Top = 24
+  end
+end

@@ -1,0 +1,15 @@
+﻿[selectfunc]
+Coordinates=83,10,65,69
+
+[FDConnection1]
+Coordinates=199,1,90,33
+
+[DataSource1]
+Coordinates=0,0,77,33
+
+[FDQuery1]
+Coordinates=10,10,63,177
+
+[]
+Coordinates=167,105,85,33
+

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/27 14:40:42.000.346,=C:\Users\leyf\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/27 14:41:43.000.963,C:\Users\leyf\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Delphi\Controle_de_Abastecimento.dfm</Transaction>
+    <Transaction>2017/10/27 14:41:43.000.963,C:\Users\leyf\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Delphi\Controle_de_Abastecimento.pas</Transaction>
+    <Transaction>2017/10/27 14:41:55.000.900,C:\Users\leyf\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Delphi\CdA.dproj</Transaction>
+    <Transaction>2017/10/27 16:47:18.000.398,=F:\Delphi\Unit2.pas</Transaction>
+    <Transaction>2017/10/27 16:47:37.000.530,F:\Delphi\Unit2.dfm=F:\Delphi\uDM.dfm</Transaction>
+    <Transaction>2017/10/27 16:47:37.000.530,F:\Delphi\Unit2.pas=F:\Delphi\uDM.pas</Transaction>
+    <Transaction>2017/10/28 07:52:52.000.749,=F:\Delphi\ModelSupport_CdA\default.txaPackage</Transaction>
+  </Transactions>
+</BorlandProject>
